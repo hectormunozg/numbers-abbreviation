@@ -26,6 +26,9 @@ Let's have a look at the variables you can modify:
 	var decNumM 		 = 2; // choose number of decimals positions
 	var separator 		 = '.'; // choose custom separator
 ```
+
+You have available a minified version!
+
 ## NOTE!
 This plugin requires jQuery!
 

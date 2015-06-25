@@ -36,3 +36,10 @@ var convertNumber = function(number) {
 var replaceSeparator = function(number) {
 	return number.replace('.', separator);
 };
+
+// target elements to convert
+$('[' + customSelector + ']').each(function() { 
+	// store them into numbers array
+	realNumbers.push($(this).text()); 
+});
+

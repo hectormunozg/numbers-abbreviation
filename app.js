@@ -1,3 +1,4 @@
+// Plugin developed by Héctor Muñoz (@hectormunozg) at MilloLab.com
 // variables
 var customSelector 	 = "dataconvert";
 var kFactor 		 = "K";

@@ -49,5 +49,7 @@ for (var i = 0; i < realNumbers.length; i++) {
 	convertedNumbers.push(convertNumber(realNumbers[i]));
 };
 
-
-
+// replace every data loop
+for (var i = 0; i < realNumbers.length; i++)  {
+	$('[' + customSelector  + ']'+ ':eq(' + i + ')').text(convertedNumbers[i]);
+}

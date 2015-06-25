@@ -33,3 +33,6 @@ var convertNumber = function(number) {
 	}	
 };
 
+var replaceSeparator = function(number) {
+	return number.replace('.', separator);
+};

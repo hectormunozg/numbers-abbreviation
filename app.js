@@ -8,3 +8,28 @@ var separator 		 = '.';
 var realNumbers 	 = [];
 var convertedNumbers = [];
 
+// convert number to abbreviate mode
+var convertNumber = function(number) {
+	// apply the correct / factor
+	if (number >= 1000000) {
+		// math round
+		number = (number / 1000000);
+		// adding decimal positions
+		number = number.toFixed(decNumM);
+		// adding suffix
+		number = number + mFactor;
+		// optional replace separator
+		number = replaceSeparator(number);
+		return number;
+		console.log(number);
+
+	} else if (number >= 1000) {
+		number = (number / 1000);
+		number = number.toFixed(decNumK);
+		number = number + kFactor;
+		number = replaceSeparator(number);
+		return number;
+		console.log(number);
+	}	
+};
+

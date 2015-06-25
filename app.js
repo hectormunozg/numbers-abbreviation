@@ -43,3 +43,11 @@ $('[' + customSelector + ']').each(function() {
 	realNumbers.push($(this).text()); 
 });
 
+// loop to convert every number on the page 
+for (var i = 0; i < realNumbers.length; i++) {
+	// add value of the number in new array
+	convertedNumbers.push(convertNumber(realNumbers[i]));
+};
+
+
+

@@ -32,3 +32,6 @@ You have available a minified version!
 ## NOTE!
 This plugin requires jQuery!
 
+## License
+This plugin is under *license Creative Commons 3.0 BY* 
+

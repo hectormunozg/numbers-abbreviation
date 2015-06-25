@@ -1,4 +1,4 @@
-# Numbers abbreviation app (check [demo]())
+# Numbers abbreviation jQuery plugin
 Fully customizable plugin, you can change every number you want from your DOM and convert it to an abbreviated expression (1234 would be 12.34K, for example).
 
 ## How it works
@@ -7,7 +7,7 @@ This plugins targets every number with the selector chosen and convert it to the
 <div class="test">
 	<ul>
 		<li>
-		<a dataconvert href="#">1250</a>
+			<a dataconvert href="#">1250</a>
 		</li>
 	</ul>
 </div>
